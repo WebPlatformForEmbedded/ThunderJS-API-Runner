@@ -1,6 +1,7 @@
 import simple from './simple'
 import controller from './controller'
 import webkitbrowser from './webkitbrowser'
+import sleep from './sleep'
 import reboot from './reboot'
 import listen_webkitbrowser_url_change from './listen_webkitbrowser_url_change'
 
@@ -11,4 +12,5 @@ export default {
   'Web Kit Browser': webkitbrowser,
   'Reboot device': reboot,
   'Listen to URL changes in WebKitBrowser': listen_webkitbrowser_url_change,
+  Sleep: sleep,
 }
